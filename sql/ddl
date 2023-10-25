@@ -1,0 +1,116 @@
+create user 'allit'@'localhost' identified by 'allit';
+grant all privileges on license.* to 'allit'@'localhost';
+
+create user 'allit'@'%' identified by 'allit';
+grant all privileges on license.* to 'allit'@'%';
+
+create database license;
+
+
+
+
+
+CREATE TABLE MEMBER(
+	MEMBERNUM INT PRIMARY KEY AUTO_INCREMENT,
+    MEMBERID VARCHAR(20) UNIQUE NOT NULL,
+    MEMBERNAME VARCHAR(10) NOT NULL,
+    MEMBERPHONE VARCHAR(20) NOT NULL,
+	MEMBERPASSWORD VARCHAR(20) NOT NULL,
+    MEMBERGRADE INT DEFAULT 0
+);
+    
+CREATE TABLE QNA(
+	QNUM INT PRIMARY KEY AUTO_INCREMENT,
+    QDATE DATE NOT NULL,
+    QTITLE VARCHAR(100) NOT NULL,
+    QCONTENT VARCHAR(500) NOT NULL,
+    QHITS INT DEFAULT 0,
+    MEMBERNUM INT,
+    FOREIGN KEY(MEMBERNUM) REFERENCES MEMBER(MEMBERNUM) on delete cascade
+);
+
+CREATE TABLE REPLY(
+	RENUM INT PRIMARY KEY AUTO_INCREMENT,
+    QNUM INT NOT NULL,
+    RECONTENT VARCHAR(500) NOT NULL,
+    RECOUNT INT DEFAULT 0,
+    FOREIGN KEY(QNUM) REFERENCES QNA(QNUM) on delete cascade
+);
+
+CREATE TABLE NOTICE(
+	NONUM INT PRIMARY KEY AUTO_INCREMENT,
+    NODATE DATE NOT NULL,
+    NOTITLE VARCHAR(100) NOT NULL,
+    NOCONTENT VARCHAR(500) NOT NULL,
+    NOHITS INT DEFAULT 0,
+    NOIMPOR INT DEFAULT 0
+);
+
+CREATE TABLE EXAMS(
+	EXNUM INT PRIMARY KEY AUTO_INCREMENT,
+    EXNAME VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE EXAMINFO(
+	INFONUM INT PRIMARY KEY AUTO_INCREMENT,
+    INFODATE DATE NOT NULL,
+    INFO VARCHAR(500) NOT NULL,
+    EXNUM INT,
+    infoStart date not null,
+    infoEnd date not null,
+    infoLoc VARCHAR(100) not null,
+    infoSeq INT not null,
+    FOREIGN KEY(EXNUM) REFERENCES EXAMS(EXNUM)
+);
+
+CREATE TABLE MEMBEREXAM(
+	MENUM INT PRIMARY KEY AUTO_INCREMENT,
+    MEDATE DATE NOT NULL,
+    MEMBERNUM INT,
+    INFONUM INT,
+    MEPASS INT DEFAULT 0,
+    FOREIGN KEY(MEMBERNUM) REFERENCES MEMBER(MEMBERNUM),
+    FOREIGN KEY(INFONUM) REFERENCES EXAMINFO(INFONUM)
+);
+
+
+alter table member add column memberdate date;
+insert into member(membernum, memberid, MEMBERNAME, memberphone, memberpassword, memberdate) 
+values (0, 'admin', '관리자', '01012345678', '1234', now());
+
+UPDATE MEMBER SET MEMBERGRADE = 1 WHERE MEMBERNUM = 1;
+
+alter table examinfo add column infoPrice INT not null;
+
+DROP TABLE REPLY;
+DROP TABLE QNA;
+DROP TABLE MEMBEREXAM;
+DROP TABLE MEMBER;
+DROP TABLE EXAMINFO;
+DROP TABLE EXAMS;
+DROP TABLE NOTICE;
+
+insert into exams values(null,'시험1');
+insert into exams values(null,'시험2');
+insert into exams values(null,'시험3');
+
+insert into examinfo values(null,'2023-01-27','시험상세1',1,'2023-01-03',
+'2023-01-10','시험지역1',1);
+insert into examinfo values(null,'2023-03-11','시험상세2',1,'2023-03-03',
+'2023-03-10','시험지역2',2);
+insert into examinfo values(null,'2023-07-27','시험상세3',1,'2023-07-10',
+'2023-07-20','시험지역3',3);
+
+insert into examinfo values(null,'2023-02-27','시험상세1',2,'2023-02-03',
+'2023-02-10','시험지역1',1);
+insert into examinfo values(null,'2023-05-11','시험상세2',2,'2023-05-03',
+'2023-05-10','시험지역2',2);
+insert into examinfo values(null,'2023-11-27','시험상세3',2,'2023-11-10',
+'2023-11-20','시험지역3',3);
+
+insert into examinfo values(null,'2023-04-27','시험상세1',3,'2023-04-03',
+'2023-04-10','시험지역1',1);
+insert into examinfo values(null,'2023-06-11','시험상세2',3,'2023-06-03',
+'2023-06-10','시험지역2',2);
+insert into examinfo values(null,'2023-12-27','시험상세3',3,'2023-12-10',
+'2023-12-20','시험지역3',3);
