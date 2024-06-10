@@ -45,7 +45,7 @@ public class ApplyCheckController {
 	@RequestMapping(value = "/nextSeq", method = RequestMethod.POST)
 	public int nextSeq(@RequestBody Map<String, Integer> reqData){
 		int exNum = reqData.get("exNum");
-		return editExamsDao.selectSeqByExNum(exNum);
+		return (editExamsDao.selectSeqByExNum(exNum) + 1);
 	}
 
 	@RequestMapping(value = "/delExam", method = RequestMethod.POST)

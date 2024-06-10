@@ -21,8 +21,8 @@ public class ExamsDao {
 	public List<ExamDetail> selectList() {
 		String sql = "select e.exnum,exname,infonum,infodate,info,infostart,infoend,infoloc,infoseq,infoPrice "
 				+ " from exams e, examinfo i "
-				+ " where e.exnum = i.exnum "
-				+ " order by exname, infodate ";
+				+ " where e.exnum = i.exnum And substring(infodate,1,4) = extract(YEAR from now()) "
+				+ " order by infodate, exname ";
 		List<ExamDetail> list = jdbcTemplate.query(sql, (rs,n)-> examDetail(rs));
 		return list;
 	}
