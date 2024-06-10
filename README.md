@@ -1,4 +1,4 @@
-![스크린샷 2024-06-10 181246](https://github.com/tyt9/ALLIT/assets/143326223/0be7435e-9c0c-4ece-bc56-3027fd02bcaf)![스크린샷 2024-06-10 181432](https://github.com/tyt9/ALLIT/assets/143326223/c3bfb91d-3a8b-4c00-b232-31e36b247b81)
+![스크린샷 2024-06-10 181432](https://github.com/tyt9/ALLIT/assets/143326223/c3bfb91d-3a8b-4c00-b232-31e36b247b81)
 
 맨 처음 들어가면 나오는 화면
 팀원분이 페이지가 허전한 것 같다고 귀여운 이미지를 만들어주셨다.
