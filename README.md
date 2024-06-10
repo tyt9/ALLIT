@@ -38,7 +38,7 @@
 
 
 ![캡처 도구 2024-06-10 오후 6_17_50](https://github.com/tyt9/ALLIT/assets/143326223/68789d45-e46f-48fc-a645-e98fad3ddfe3)<br>
-일반유저는 이런 메뉴들을 쓸 수 있다.<br><br><br><br>
-
+일반유저는 이런 메뉴들을 쓸 수 있다.<br><br><br><br><br><br>
+**ERD** 참고하세요.
 ![ALLITERD](https://github.com/tyt9/ALLIT/assets/143326223/a544e08e-0001-484a-9bb2-3d40033d9b23)
-ERD 참고하세요.
+
