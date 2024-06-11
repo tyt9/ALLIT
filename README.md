@@ -37,12 +37,12 @@
 ② 접수 기간 : 접수 시작일보다 종료일이 빠르거나, 시험 날짜를 넘어가면 기간을 확인하라는 알림창이 뜬다.<br>
 ③ 회차 : 선택한 시험에 따라 알맞는 회차가 자동으로 설정된다. (이전회차 + 1)<br><br><br>
 
-![스크린샷 2024-06-10 184327](https://github.com/tyt9/ALLIT/assets/143326223/60d7e1e2-3f47-4cf3-a3be-2be6bf4a0a24)<br>
-관리자는 시험 일정 조회 페이지에 들어가면 **삭제 버튼**이 뜬다. 일반 유저는 뜨지 않는다.<br><br>
+![스크린샷 2024-06-10 184327](https://github.com/tyt9/ALLIT/assets/143326223/bbc38ee9-7f63-491e-ac22-0532f0ef678b)<br>
+① 삭제 버튼 : 관리자는 시험 일정 조회 페이지에 들어가면 **삭제 버튼**이 뜬다. 일반 유저는 뜨지 않는다.<br><br>
 
+![캡처 도구 2024-06-11 오후 5_14_20](https://github.com/tyt9/ALLIT/assets/143326223/599d96f9-11f5-43e6-bbca-726928ce013b)<br>
+일반유저는 이런 메뉴들을 쓸 수 있다.<br><br><br><br><br>
 
-![캡처 도구 2024-06-10 오후 6_17_50](https://github.com/tyt9/ALLIT/assets/143326223/68789d45-e46f-48fc-a645-e98fad3ddfe3)<br>
-일반유저는 이런 메뉴들을 쓸 수 있다.<br><br><br><br><br><br>
 **ERD** 참고하세요.<br>
 ![ALLITERD](https://github.com/tyt9/ALLIT/assets/143326223/a544e08e-0001-484a-9bb2-3d40033d9b23)
 
