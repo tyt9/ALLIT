@@ -17,7 +17,9 @@
 * **프론트** : JSP, javascript, jQuery<br><br>
 
 ### 나의 역할
-<details><summary><b>ERD 설계</b></summary>
+* **ERD 설계**
+  
+  <details><summary><b>ERD 이미지</b></summary>
   <div>
     <img src="src/main/webapp/img/ALLITERD.png">
   </div>
@@ -30,7 +32,7 @@
 팀장으로서 역할 분담 이후 각자 작성하는 코드를 취합하고 오류를 수정함
 
 * **기능 구현**
-
+  
 <details><summary><b>시험 일정 조회 기능</b></summary>
   <div>
     <img src="src/main/webapp/img/스크린샷 2024-06-10 181150.png">
@@ -43,7 +45,8 @@
      * 현재 날짜에 접수 가능한 시험은 접수 버튼이 보임
      * 시험 이름이나 접수 버튼을 클릭하면 시험 상세 페이지로 이동
 
-<details><summary><b>시험 접수 기능</b></summary>
+
+  <details><summary><b>시험 접수 기능</b></summary>
   <div>
     <img src="src/main/webapp/img/스크린샷 2024-06-10 181246.png">
   </div>
@@ -54,7 +57,7 @@
      * 접수 가능한 인원이 있고 초과되면 접수 불가능함
      * 같은 시험의 이전 회차와 다음 회차로 이동할 수 있다
 
-<details><summary><b>시험 추가 및 삭제 기능</b></summary>
+  <details><summary><b>시험 추가 및 삭제 기능</b></summary>
   <div>
     <img src="src/main/webapp/img/스크린샷 2024-06-10 181545.png">
     <img src="src/main/webapp/img/스크린샷 2024-06-10 184327.png">
