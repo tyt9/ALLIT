@@ -58,11 +58,13 @@
 <details><summary><b>시험 추가 및 삭제 기능</b></summary>
   <div>
     <img src="src/main/webapp/img/스크린샷 2024-06-10 181545.png">
+    <img src="src/main/webapp/img/스크린샷 2024-06-10 184327.png">
   </div>
 </details>
 
      * 관리자는 시험을 추가하고 삭제할 수 있다
      * 시험 회차는 선택한 시험에 따라 알맞는 회차가 자동으로 설정된다(이전회차 +1)
+     * 관리자로 로그인하면 시험 일정 조회 페이지에서 시험을 삭제할 수 있다
 
      
 
