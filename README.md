@@ -32,9 +32,13 @@
 </details>
 
 
-* **기능 구현**
+<br><br>* **기능 구현**
 
-   **[1. 시험 일정 조회 기능]()**
+<details><summary>시험 일정 조회 기능</summary>
+  <div>
+    <img src="src/main/webapp/img/ALLITERD.png">
+  </div>
+</details>
 
      * 시험 일정 조회 페이지에 들어가면 올해의 시험 일정이 표시
      * 기본 정렬은 날짜순
