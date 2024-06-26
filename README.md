@@ -57,7 +57,7 @@
      * 접수 가능한 인원이 있고 초과되면 접수 불가능함
      * 같은 시험의 이전 회차와 다음 회차로 이동할 수 있다
 
-  <details><summary><b>시험 추가 및 삭제 기능</b></summary>
+  <details><summary><b>시험 관리 기능</b></summary>
   <div>
     <img src="src/main/webapp/img/스크린샷 2024-06-10 181545.png">
     <img src="src/main/webapp/img/스크린샷 2024-06-10 184327.png">
