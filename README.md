@@ -18,20 +18,19 @@
 
 ### 나의 역할
 ---
-<details><summary>**ERD 설계**</summary>
-  <div markdown="1">
-    ![ALLITERD](https://github.com/tyt9/ALLIT/assets/143326223/3c4439b4-0021-45e9-9f30-351c039c540c)
-
+<details><summary>ERD 설계</summary>
+  <div>
+    <img src="src/main/webapp/img/ALLITERD.png">
   </div>
 </details>
 
-
-* **ERD 설계**
-
 기획 이후 기능에 따라 어떤 데이터가 필요한지, 그 데이터마다 어떤 관계가 필요한지 생각하며 테이블과 그 관계를 구성함
-* **소스 통합**
+<details><summary>소스 통합</summary>
+  <div>
+    <br>팀장으로서 역할 분담 이후 각자 작성하는 코드를 취합하고 오류를 수정함
+  </div>
+</details>
 
-팀장으로서 역할 분담 이후 각자 작성하는 코드를 취합하고 오류를 수정함
 
 * **기능 구현**
 
