@@ -17,7 +17,6 @@
 * **프론트** : JSP, javascript, jQuery<br><br>
 
 ### 나의 역할
----
 <details><summary><b>ERD 설계</b></summary>
   <div>
     <img src="src/main/webapp/img/ALLITERD.png">
@@ -66,7 +65,8 @@
      * 시험 회차는 선택한 시험에 따라 알맞는 회차가 자동으로 설정된다(이전회차 +1)
      * 관리자로 로그인하면 시험 일정 조회 페이지에서 시험을 삭제할 수 있다
 
-     
+### 나머지 기능 소개
+---
 
 
 
