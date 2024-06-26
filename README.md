@@ -18,7 +18,7 @@
 
 ### 나의 역할
 ---
-* **[ERD 설계](https://github.com/tyt9/ALLIT/edit/master/README.md#erd-%EC%B0%B8%EA%B3%A0%ED%95%98%EC%84%B8%EC%9A%94)**
+* **[ERD 설계](https://github.com/tyt9/ALLIT?tab=readme-ov-file#erd-%EC%B0%B8%EA%B3%A0%ED%95%98%EC%84%B8%EC%9A%94)**
 
 기획 이후 기능에 따라 어떤 데이터가 필요한지, 그 데이터마다 어떤 관계가 필요한지 생각하며 테이블과 그 관계를 구성함
 * **소스 통합**
