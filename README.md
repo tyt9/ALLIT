@@ -34,7 +34,7 @@
 
 <details><summary>시험 일정 조회 기능</summary>
   <div>
-    <img src="src/main/webapp/img/ALLITERD.png">
+    <img src="src/main/webapp/img/스크린샷 2024-06-10 181150.png">
   </div>
 </details>
 
@@ -43,8 +43,12 @@
      * 시험별 검색, 기간으로 필터링, 둘 다 필터링도 가능
      * 현재 날짜에 접수 가능한 시험은 접수 버튼이 보임
      * 시험 이름이나 접수 버튼을 클릭하면 시험 상세 페이지로 이동
-  
-  **2. 시험 접수 기능**
+
+<details><summary>시험 접수 기능</summary>
+  <div>
+    <img src="src/main/webapp/img/스크린샷 2024-06-10 181246.png">
+  </div>
+</details>
   
      * 시험 상세 페이지에서 접수 가능
      * 현재 접수 가능한 시험만 접수 버튼이 보임
