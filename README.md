@@ -32,7 +32,8 @@
 </details>
 
 
-<br><br>* **기능 구현**
+<br><br>
+* **기능 구현**
 
 <details><summary>시험 일정 조회 기능</summary>
   <div>
