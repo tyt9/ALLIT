@@ -13,7 +13,7 @@
 ### 개발 환경
 * Java 11
 * **프레임워크** : Spring boot(2.7.15)
-* **데이터베이스** : mysql - jdbcTemplate
+* **데이터베이스** : Mysql - jdbcTemplate
 * **프론트** : JSP, javascript, jQuery<br><br>
 
 ### 나의 역할
