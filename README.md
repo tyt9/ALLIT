@@ -3,7 +3,7 @@
 
   <details><summary><b>초기 화면</b></summary>
   <div>
-    <img src="src/main/webapp/img/스크린샷 2024-06-10 181246.png">
+    <img src="src/main/webapp/img/스크린샷 2025-12-23 165634.png">
   </div>
 </details><br>
 
