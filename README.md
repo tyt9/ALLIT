@@ -1,6 +1,12 @@
 # ALLIT
 **자격증 시험 접수 페이지** 입니다.<br><br><br>
 
+  <details><summary><b>초기 화면</b></summary>
+  <div>
+    <img src="src/main/webapp/img/스크린샷 2024-06-10 181246.png">
+  </div>
+</details>
+
 ### 개발 기간
 * 2023.09.01 ~ 2023.09.15 (약 2주)<br><br>
 
